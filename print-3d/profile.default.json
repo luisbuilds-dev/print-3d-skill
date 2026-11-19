@@ -1,0 +1,47 @@
+{
+  "_info": "Generic defaults. Never edit for one user: the user's profile lives in ~/.claude/print-3d/profile.json (created by the onboarding form) and overrides these keys.",
+  "impresora": "Generic FDM printer (0.4 mm nozzle)",
+  "cinematica": "unknown",
+  "cerrada": false,
+  "cama_mm": [220, 220, 250],
+  "margen_cama_mm": 3,
+  "boquilla_mm": 0.4,
+  "ancho_linea_mm": 0.42,
+  "capa_mm": { "fina": 0.12, "normal": 0.2, "rapida": 0.28 },
+  "boquilla_max_c": 260,
+  "cama_max_c": 100,
+  "laminador": "OrcaSlicer",
+  "material_por_defecto": "PLA",
+  "materiales": ["PLA", "PETG"],
+  "densidad_g_cm3": { "PLA": 1.24, "PLA+": 1.24, "PETG": 1.27, "ABS": 1.04, "ASA": 1.07, "TPU": 1.21, "PC": 1.2, "PA": 1.14, "PLA-CF": 1.29, "PETG-CF": 1.3, "PA-CF": 1.2, "PCTG": 1.23 },
+  "reglas": {
+    "pared_min_mm": 0.84,
+    "pared_estructural_mm": 1.6,
+    "suelo_min_mm": 0.8,
+    "voladizo_max_grados": 45,
+    "puente_max_mm": 10,
+    "detalle_min_mm": 0.5,
+    "chaflan_base_mm": 0.4,
+    "redondeo_bordes_mm": [0.5, 1.0]
+  },
+  "holguras_por_lado_mm": {
+    "a_presion": 0.1,
+    "ajustado": 0.15,
+    "deslizante": 0.25,
+    "holgado": 0.4,
+    "tapa_caja": 0.2,
+    "agujero_extra_diametro": 0.2
+  },
+  "carpeta_salida": "",
+  "formatos": ["stl"],
+  "preferencias": {
+    "nombre": "",
+    "firma": "",
+    "estilo": "",
+    "idioma": "",
+    "preguntar_antes": true,
+    "max_preguntas": 5,
+    "notas": ""
+  },
+  "probado": {}
+}
